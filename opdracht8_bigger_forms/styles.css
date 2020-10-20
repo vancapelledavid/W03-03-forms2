@@ -1,0 +1,110 @@
+body{
+    color:red;
+    background-color: blanchedalmond;
+}
+
+
+header{
+    border: 10px solid blue;
+    margin: 20px 40px 60px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+main{
+    background-color: gold;
+    border: blue 10px dashed;
+    margin: 20px 40px 60px;
+    padding: 10px 20px;
+    
+}
+footer{
+    border: deeppink 10px dotted;
+    margin: 20px 40px 60px;
+    padding: 10px 20px;
+}
+h1{
+    color: cornsilk;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+#green-background{
+    background-color: green;
+    padding: 2% 10%;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    line-height: 2em;
+}
+li{ 
+    width: 130px;
+    font-size: 30px;
+}
+
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: lightcoral;
+}
+ul .black-border{
+    background-color: indigo;
+    color: ivory;
+    border: 5px solid black;
+    border-radius: 50px ;
+    margin-top: 20px;
+    margin-right: 440px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    padding: 5px 10px;
+}
+
+.iets_groter{
+    font-size: 40px;
+}
+.foot li{
+    display: block;
+    padding: 10px 20px;
+}
+.blue-background{
+    background-color: blue;
+    display: block;
+    margin:0;
+    padding: 10px 30px;
+}
+.blue-background2{
+    background-color: blue;
+    display: block;
+    margin:40px;
+    padding: 10px 30px;
+}
+.invoerveld{
+    margin: 20px 10px;
+}
+.block{
+    display: block;
+}
+
+@media (min-width: 1024px){
+    body{
+        color:black;
+        background-color: lightyellow
+    }  
+    h1{
+        color: black;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 50px;
+    }
+    li{ 
+        width: 250px;
+        font-size: 30px;
+    }
+    .foot li{
+        display: inline;
+        padding: 0px 20px
+    }
+}
